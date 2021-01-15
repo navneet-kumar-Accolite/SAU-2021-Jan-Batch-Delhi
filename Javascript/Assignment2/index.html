@@ -1,0 +1,48 @@
+<html>
+<head>
+	<script src = "script.js" > </script>
+	<link rel = "stylesheet" type="text/css" href = "style.css">	
+</head>
+
+<body>
+	<h1><center>Student Data Form</center></h1>
+	<div>
+		<center>
+			<table border="1">
+				<tr>
+					<td> FisrtName </td>
+					<td> <input type = "text" placeholder="First Name" id = "fName" onchange="FirstName()" required/>
+				</tr>
+				<tr>
+					<td> LastName </td>
+					<td> <input type = "text" placeholder="Second Name" id = "lName" onchange="LastName()"/>
+					</tr>
+				<tr>
+					<td>Email</td>
+					<td> <input type = "text" placeholder="Email" id = "email" onchange="Email()"/>
+				</tr>
+				<tr>
+					<td>Mobile</td>
+					<td> <input type = "number" placeholder="Mobile" id = "mobile" onchange="Mobile()"/>
+				</tr>
+				<tr>
+					<td rowspan="3">Gender</td>
+					<td> <input type = "radio" id = "male" value="male" name="gender"/> Male</td>
+				</tr>
+				<tr>
+					<td> <input type = "radio" id = "female" value="female" name="gender"/> Female </td>
+				</tr>
+				<tr>
+					<td> <input type = "radio" id = "other" value="other" name="gender"/> Other </td>
+				</tr>
+	
+	
+				<tr>
+					<td><button onclick="submittingData()"> Submit</button></td>
+					<td><button onclick="reset()"> Reset</button></td>
+				</tr>
+			</table>
+		</center>
+	</div>
+</body>
+</html>
