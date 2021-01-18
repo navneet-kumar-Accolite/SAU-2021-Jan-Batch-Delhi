@@ -1,0 +1,15 @@
+.hr {
+  border: none;
+  height: 50px;
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}
+
+img{
+  height: 200px;
+  width: 250px;
+}
+
+body {
+  background-color: lightblue;
+}
